@@ -1,0 +1,43 @@
+*{
+  display: grid;
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+
+}
+
+.question {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #8e44ad;
+}
+
+/* =======
+   ANSWERS
+   ======= */
+
+.answers {
+  grid-template-columns: auto auto;
+  grid-template-rows: 50% 50%;
+}
+
+#a1 {
+  background: #ff7416;
+}
+
+#a2 {
+  background: #00a7b2;
+}
+
+#a3 {
+  background: #2a00b2;
+}
+
+#a4 {
+  background: #26b21b;
+}

@@ -1,0 +1,77 @@
+    /* ====
+       BODY
+       ==== */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  background: #3498db;
+  justify-content: center;
+}
+
+
+    /* =======
+       CONTENT
+       ======= */
+
+h1 {
+  font-family: 'Wendy One', sans-serif;
+  font-size: 60px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 30%;
+}
+
+    /* ====
+       FORM
+       ==== */
+
+
+form {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+
+#pin, #enter {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  line-height: 50px;
+  margin: 5px;
+  font-weight: 800;
+}
+
+#pin {
+  color: #555;
+  border-radius: 0;
+  border: .125rem solid #ccc;
+  transition: all 0.25s linear;
+}
+
+#pin:focus {
+  border-color: black;
+}
+
+#enter {
+  border-radius: 2px;
+  border: .125rem solid #333;
+  background: #333;
+  color: white;
+}
+
+#enter:active {
+  border-color: white;
+}
